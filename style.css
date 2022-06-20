@@ -54,7 +54,9 @@ a {
 .top-left-icon li {
     padding: 10px;
 }
-
+.search{
+    background-color: white;
+}
 
 #searchbar {
     border-radius: 6px;
@@ -74,7 +76,7 @@ a {
     align-items: center;
     background-color: white;
     height: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     overflow: auto;
    
 }
