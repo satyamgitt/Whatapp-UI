@@ -60,20 +60,22 @@ a {
 #search {
     background-color: white;
     border-bottom: 1px solid lightgrey;
-    
-   
+
+
 }
-.search-container{
+
+.search-container {
     display: flex;
 }
 
-.search-container ion-icon{
-    
-        position: relative;
-        top: 16px;
-        left: 21px;
-    
+.search-container ion-icon {
+
+    position: relative;
+    top: 16px;
+    left: 21px;
+
 }
+
 #searchbar {
     border-radius: 6px;
     height: 30px;
@@ -83,8 +85,8 @@ a {
     margin-top: 9px;
     padding: 5px 30px;
     border: none;
-      /* margin-left: 0px; */
-      /* border-bottom: 1px solid black; */
+    /* margin-left: 0px; */
+    /* border-bottom: 1px solid black; */
 }
 
 .container2 {
@@ -98,7 +100,7 @@ a {
 }
 
 
- .name {
+.name {
     margin-left: 20px;
     font-weight: 500;
     font-size: 20px;
@@ -112,6 +114,7 @@ a {
 .left-side-items {
     overflow: auto;
 }
+
 .container2 .people {
     height: 35px;
     width: 30px;
@@ -121,9 +124,10 @@ a {
 }
 
 .people img {
-   height: 100%;
-   width: 100%;
-} 
+    height: 100%;
+    width: 100%;
+}
+
 .whatsapp {
     display: flex;
     justify-content: space-between;
@@ -220,6 +224,14 @@ a {
 .right-footer li {
     list-style: none;
 }
+.right-footer input{
+    
+        width: 100%;
+        border: none;
+        padding: 9px;
+        border-radius: 11px;
+    
+}
 
 .footer-search {
     width: 100%;
@@ -230,20 +242,35 @@ a {
     background-color: white;
 
 }
-.footer-search-container input{
 
-    
-        width: 85%;
-       
-        border: none;
-        position: relative;
-        bottom: 15px;
-       
-        padding: 7px 5px;
-       
-    
-}
-.footer-search-container .ionicon s-ion-icon{
+/* .footer-search-container input {
+
+
+    width: 85%;
+
+    border: none;
+    position: relative;
+    bottom: 15px;
+
+    padding: 7px 5px;
+
+
+} */
+
+/* .footer-search-container .ionicon s-ion-icon {
     position: relative;
     bottom: 4px;
+} */
+
+.doted-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px dashed black;
+    margin: 9px;
+    position: relative;
+    right: 12px;
+     /* padding: 6px; */
+     /* margin-left: 8px; */
+    /* left: -14px; */
 }
