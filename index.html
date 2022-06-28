@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhatApp UI using Html and css</title>
 
-    <link rel="shotcut icon" href="WhatsApp.png">
+    <link rel="shotcut icon" href="images/WhatsApp.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
@@ -18,31 +18,30 @@
 <body>
     <div class="whatsapp">
         <!-- left container -->
-        <div class="side-container">
+        <div class="side-container" >
             <div class="user-image">
-                <img src="image1.jpg" alt="">
+                <img src="images/image1.jpg" alt="">
                 <ul class="top-left-icon">
-                    <!-- <li><a href=""><i class="fa fa-circle-thin"></i></a></li> -->
+                    
                     <div class="doted-circle"></div>
-                    <img src="Chat.png" alt="chat">
+                    <img src="images/Chat.png" alt="chat">
                     <li><a href="">
                             <ion-icon name="ellipsis-vertical-outline"></ion-icon>
                         </a></li>
-                    <!-- <li><a href=""><i class="fa fa-align-justify"></i></a></li> -->
-                    <!-- <img src="images.png" alt="" id="img"> -->
+                   
                 </ul>
             </div>
             <div id="search">
                 <div class="search-container">
                     <ion-icon name="search-outline" class="icon"></ion-icon>
-                    <input type="text" placeholder="Search and chat" id="searchbar">
+                    <input type="text" placeholder="Search and chat" id="searchname" onkeyup="search()">
                 </div>
             </div>
 
-            <div class="left-side-items">
+            <div class="left-side-items" id="left-side-items">
                 <div class="container2">
                     <div class="people">
-                        <img src="image6.jpg" alt="">
+                        <img src="images/image5.jpg" alt="">
                     </div>
 
                     <div class="name">
@@ -50,20 +49,18 @@
                         <p>Hello I am satyam</p>
                     </div>
                 </div>
-
                 <div class="container2">
                     <div class="people">
-                        <img src="image3.jpg" alt="">
+                        <img src="images/image3.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Satyam Rao</h5>
                         <p>Hello I am satyam</p>
                     </div>
                 </div>
-
                 <div class="container2">
                     <div class="people">
-                        <img src="image2.jpg" alt="">
+                        <img src="images/image2.jpg" alt="">
                     </div>
 
                     <div class="name">
@@ -73,7 +70,7 @@
                 </div>
                 <div class="container2">
                     <div class="people">
-                        <img src="image3.jpg" alt="">
+                        <img src="images/image3.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Priyam Rao</h5>
@@ -82,7 +79,7 @@
                 </div>
                 <div class="container2">
                     <div class="people">
-                        <img src="image5.jpg" alt="">
+                        <img src="images/image5.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Narendar Modi</h5>
@@ -91,7 +88,7 @@
                 </div>
                 <div class="container2">
                     <div class="people">
-                        <img src="image4.jpg" alt="">
+                        <img src="images/image4.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Rahul Gandhi</h5>
@@ -100,7 +97,7 @@
                 </div>
                 <div class="container2">
                     <div class="people">
-                        <img src="image6.jpg" alt="">
+                        <img src="images/image6.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Nikhil Kareyla</h5>
@@ -109,7 +106,7 @@
                 </div>
                 <div class="container2">
                     <div class="people">
-                        <img src="image4.jpg" alt="">
+                        <img src="images/image4.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Hanuman Singh</h5>
@@ -118,7 +115,7 @@
                 </div>
                 <div class="container2">
                     <div class="people">
-                        <img src="image2.jpg" alt="">
+                        <img src="images/image2.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Rahul Gadhi</h5>
@@ -127,7 +124,7 @@
                 </div>
                 <div class="container2">
                     <div class="people">
-                        <img src="image3.jpg" alt="">
+                        <img src="images/image3.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Parmindar</h5>
@@ -137,7 +134,7 @@
 
                 <div class="container2">
                     <div class="people">
-                        <img src="image4.jpg" alt="">
+                        <img src="images/image4.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Harsh Gujral</h5>
@@ -147,7 +144,7 @@
 
                 <div class="container2">
                     <div class="people">
-                        <img src="image5.jpg" alt="">
+                        <img src="images/image5.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Amit Singh</h5>
@@ -157,7 +154,7 @@
 
                 <div class="container2">
                     <div class="people">
-                        <img src="image1.jpg" alt="">
+                        <img src="images/image1.jpg" alt="">
                     </div>
                     <div class="name">
                         <h5>Prem</h5>
@@ -171,7 +168,7 @@
         <!-- right container -->
         <div class="right-container">
             <div class="user-image-right">
-                <img src="image1.jpg" alt="">
+                <img src="images/image1.jpg" alt="">
                 <h2 id="Chat-side-name">Satyam</h2>
 
                 <ul class="top-right-icon">
@@ -183,8 +180,11 @@
                 </ul>
             </div>
 
-            <div class="blank-space">
+            <div class="blank-space" id="middle-content">
                 <!-- Blank Space For Chat -->
+               <!-- <img src="images/background.png" alt="">  -->
+                
+              
             </div>
 
             <div class="right-footer">
@@ -196,12 +196,12 @@
                         <ion-icon name="attach-outline"></ion-icon>
                     </li>
                 </ul>
-                <!-- <div class="footer-search">
-                    <div class="footer-search-container"> -->
-                        <!-- <ion-icon name="search-outline" class="icon"></ion-icon> -->
-                        <input type="text" placeholder="Text your message...">
-                    <!-- </div>
-                </div> -->
+               
+                        <input type="text" placeholder="Text your message..." id="inputMessage">
+                   <div id="click">
+                        <input type="checkbox" id="checkbox" onclick="check()">
+                        <ion-icon name="send-outline" onclick="send()"></ion-icon>
+                    </div>
                 <ion-icon name="mic-outline"></ion-icon>
             </div>
         </div>
@@ -209,6 +209,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <script src="index.js"></script>
 </body>
 
 </html>
